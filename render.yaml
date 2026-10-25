@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: medical-image-wavelet-lab
+    runtime: docker
+    plan: starter
+    healthCheckPath: /_stcore/health
